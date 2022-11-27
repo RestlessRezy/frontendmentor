@@ -1,0 +1,152 @@
+@media only screen and (min-width: 0em) {
+    :root {
+      --primaryCyan: hsl(158, 36%, 37%);
+      --primaryCream: hsl(30, 38%, 92%);
+      --neutralDarkBlue: hsl(212, 21%, 14%);
+      --neutralGrayBlue: hsl(228, 12%, 48%);
+      --white: hsl(0, 0%, 100%);
+      --bodyText: #1a1a1a;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('https://fonts.google.com/specimen/Montserrat');
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('https://fonts.google.com/specimen/Montserrat');
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Fraunces';
+        src: url('https://fonts.google.com/specimen/Fraunces');
+        font-weight: 700;
+    }
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Montserrat';
+    color: var(--bodyText);
+    overflow-x: hidden;
+    background-color: var(--primaryCream);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 0em) {
+    #main {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        position: relative;
+    }
+    #main picture {
+        /* position: absolute; */
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    #main picture img {
+        /* position: absolute; */
+        display: block;
+        height: 100%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #main .description {
+        background-color: var(--white);
+        overflow-x: hidden;
+        padding: 24px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #main .category {
+        letter-spacing: 5px;
+        color: var(--neutralGrayBlue);
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    #main h2 {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        width:100%;
+        padding-top: 12px;
+        line-height: 32px;
+    }
+
+    #main p {
+        padding-top: 16px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 23px;
+        color: var(--neutralGrayBlue);
+    }
+
+    #main .price {
+        padding-top: 24px;
+        width: 67%;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    #main .new {
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: var(--primaryCyan);
+        margin-right: 10px;
+    }
+
+    #main .old {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 23px;
+        text-decoration: line-through;
+        color: var(--neutralGrayBlue);
+        
+    }
+
+    #main .button-solid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        text-decoration: none;
+        background-color: var(--primaryCyan);
+        color: var(--white);
+        width: 100%;
+        border-radius: 8px;
+        height: 48px;
+        text-align: center;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .cart {
+        margin-right: 10px;
+    }
+}
