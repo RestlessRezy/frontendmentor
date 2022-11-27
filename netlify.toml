@@ -1,5 +1,7 @@
+[[build]]
+
 [[redirects]]
-from = "/product-preview/*"
-to = "courageous-baklava-ba1a16.netlify.app/:splat"
+from = "/product-preview-card-component-main/*"
+to = "product-preview.courageous-baklava-ba1a16.netlify.app/:splat"
 status = 200
 force = true
