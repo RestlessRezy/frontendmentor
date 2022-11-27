@@ -1,0 +1,3 @@
+[build]
+base = "/product-preview-card-component-main/"
+command = "./build.sh"
