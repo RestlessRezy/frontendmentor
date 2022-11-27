@@ -1,7 +1,4 @@
 [build]
 
-[[redirects]]
-from = "/product-preview-card-component-main/*"
-to = "product-preview.courageous-baklava-ba1a16.netlify.app/:splat"
-status = 200
-force = true
+command="./build.sh"
+publish="/public/"
