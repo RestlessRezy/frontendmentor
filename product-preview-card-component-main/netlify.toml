@@ -1,3 +1,4 @@
 [build]
-base = /product-preview-card-component-main
-command = ="./build.sh"
+base = "/product-preview-card-component-main/"
+command = "./build.sh"
+publish = "public/"
