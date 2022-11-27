@@ -1,5 +1,5 @@
 [[redirects]]
 from = "/product-preview/*"
-to = "1-product-preview-card-component--courageous-baklava-ba1a16.netlify.app/:splat"
+to = "courageous-baklava-ba1a16.netlify.app/:splat"
 status = 200
 force = true
