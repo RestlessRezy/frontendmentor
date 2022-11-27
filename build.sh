@@ -1,8 +1,9 @@
 for f in *; do
-    if [-d "$f" ]; then
+    if [ -d "$f" ]; then
+        # mkdir public/$f
         cd $f
-        cp index* public/
-        cp -r images public/
+        ls
+        bash ./build.sh
         cd ..
     fi
 done
